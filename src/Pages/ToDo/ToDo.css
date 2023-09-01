@@ -1,0 +1,43 @@
+.wrapper-quote {
+    margin: 5px 10px;
+    padding: 25px;
+    background-color: var(--color-dark);
+    border-radius: 10px;
+    text-align: center;
+}
+.add-task {
+    width: 60%;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+    
+}
+.add-task-wrapper{
+    margin: 25px;
+    text-align: center;
+}
+
+.added-tasks-wrapper{
+    margin: 5px;
+    padding: 10px;
+    text-align: start;
+    list-style: none;
+    background-color: var(--color-dark);
+    border-radius: 10px;
+}
+.added-tasks-wrapper li {
+    border-bottom: 1px solid grey;
+    margin: 5px;
+    padding: 10px;
+}
+
+.list-btn {
+    border-radius: 5px;
+    border: 0;
+    margin-right: 10px;
+}
+.list-btn:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.most-popular-item {
+    flex: 1 25%;
+}
+.card-wrapper {
+    background-color: var(--color-dark);
+    border-radius: 5px;
+    padding: 25px;
+    margin: 10px;
+}
+
+.most-popular-item-image {
+    width: 100%;
+    border-radius: 2.5px;
+    padding: 12.5px;
+}
+.most-popular-item-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 12.5px;
+}
+.most-popular-item-name {
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+

@@ -1,0 +1,12 @@
+.blogs-wrapper{
+    width: 80%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .blog-wrapper{
+    width: 80%;
+} */

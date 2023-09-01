@@ -1,0 +1,13 @@
+.blog-lis-card {
+    background-color: var(--color-dark);
+    padding: 25px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.blog-lis-card li {
+    border-bottom: 1px solid #fff;
+}
+.blog-lis-card li span {
+    font-size: 13px;
+    color: #8f8f8f;
+}

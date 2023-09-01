@@ -1,0 +1,86 @@
+{
+  "mostPopular": [
+    {
+      "id": 1,
+      "imageAlt": "opular_1",
+      "name": "Andrey",
+      "userName": "UeLfbf6Umbg",
+      "stars": "3.8",
+      "followers": "2.3M"
+    },
+    {
+      "id": 2,
+      "imageAlt": "opular_2",
+      "name": "Apostolos",
+      "userName": "vamvouras",
+      "stars": "4.8",
+      "followers": "1M"
+    },
+    {
+      "id": 3,
+      "imageAlt": "opular_3",
+      "name": "Behrouz",
+      "userName": "sasani",
+      "stars": "2.7",
+      "followers": "5.3M"
+    },
+    {
+      "id": 4,
+      "imageAlt": "opular_4",
+      "name": "Elijah",
+      "userName": "hiett",
+      "stars": "3.9",
+      "followers": "6.1M"
+    },
+    {
+      "id": 5,
+      "imageAlt": "opular_5",
+      "name": "Muselmann",
+      "userName": "oIVvGqqwVJw",
+      "stars": "4.8",
+      "followers": "8.3M"
+    },
+    {
+      "id": 6,
+      "imageAlt": "opular_6",
+      "name": "Mokhalad-",
+      "userName": "musavi",
+      "stars": "3.8",
+      "followers": "1.5M"
+    },
+    {
+      "id": 7,
+      "imageAlt": "opular_7",
+      "name": "Toa",
+      "userName": "heftiba",
+      "stars": "3.4",
+      "followers": "2.3M"
+    },
+    {
+      "id": 8,
+      "imageAlt": "opular_8",
+      "name": "Aiony",
+      "userName": "haust",
+      "stars": "4.5",
+      "followers": "9.2M"
+    }
+  ],
+  "blogs": [
+    {
+      "title": "Football",
+      "name": "Lionel Andrés Messi",
+      "userName": "Messi",
+      "hours": "500",
+      "data": "is an Argentine professional footballer who plays as a forward for and captains both Major League Soccer club Inter Miami and the Argentina national team.",
+      "id": 2
+    },
+    {
+      "title": "Paintings",
+      "name": "Pablo Ruiz Picasso",
+      "userName": "Picasso",
+      "hours": "800",
+      "data": "was a Spanish painter, sculptor, printmaker, ceramicist and theatre designer who spent most of his adult life in France.",
+      "id": 3
+    }
+  ]
+}

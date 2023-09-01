@@ -1,0 +1,69 @@
+nav {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    box-shadow: 0px 4px 10px rgb(45 48 50 / 39%);
+    transition: all .3s;
+    z-index: 100;
+}
+
+nav .logo{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 80px;
+    padding-left: 100px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-ul{
+    float: right;
+    margin-right: 50px;
+}
+
+
+nav .icon {
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+} 
+nav input[type='checkbox']{
+    appearance: none;
+}
+nav .icon-label{
+    display: none;
+    cursor: pointer;
+}
+ svg {
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 900px){
+    nav .icon {
+        display: block;
+    }
+    .nav-ul {
+        left: -100%;
+        font-size: 1.5rem;
+        width: 100%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        background-color: #000000;
+        height: 100vh;
+        transition: 0.5s;
+        overflow-y: hidden;
+    }
+    
+    nav #humburger:checked ~ .nav-ul{
+        left: 0%;
+    }
+}

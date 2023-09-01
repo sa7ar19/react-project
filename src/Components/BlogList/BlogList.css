@@ -1,0 +1,20 @@
+.blog-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.blog-items .blog-list-wrapper{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.data-section a{
+    color: #fff;
+    text-decoration: none;
+}
+.data-section-btn{
+    text-align: center;
+}

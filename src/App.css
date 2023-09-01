@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Hanken+Grotesk:wght@500;700;800&family=Karla:wght@400;700&family=Poppins:wght@300;700&display=swap');
+
+/* css variables */
+:root {
+    --color-dark :#181818; /* color: var(--color-dark) */
+    --color-darkest : #121212;
+    --color-light : #fff;
+    --color-star-icon : #ffff00;
+    --color-heart-icon : rgb(138 0 255);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+ul{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
