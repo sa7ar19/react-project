@@ -2,10 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './Header.css';
 import NavItem from '../../Components/NavItem/NavItem';
-import {FaBars} from 'react-icons/fa6'; 
+import {FaBars, FaXmark} from 'react-icons/fa6'; 
 
 
 const Header = () => {
+   
     const items = [
         {name:"Home",link:'/', id: 1},
         {name:"Blogs",link:'/blogs', id: 2},
@@ -28,18 +29,17 @@ const Header = () => {
         <>
         <nav>
             <Link to="/"><label className="logo">DesignX</label></Link>
-            <div className="icon">
-            <input type="checkbox" id="humburger" />
-            <label className='.icon-label' for='humburger'>
-                <FaBars/>
+            <input type="checkbox" id='check'/>
+            <label for="check" className="icon">
+                <i id='menu-icon'><FaBars/></i>
+                <i id='close-icon'><FaXmark/></i>
             </label>
-            </div>
             <ul className="nav-ul">
                 {
                     items.map((item)=>(
-                        <NavItem key={item.id} link={item.link}>{item.name}</NavItem>
-                    ))
-                }
+                        <NavItem key={item.id} id={item.id} link={item.link}>{item.name}</NavItem>
+                        ))
+                    }
                 {/* ... Drop Down list for responsive */}
             </ul>
         </nav>

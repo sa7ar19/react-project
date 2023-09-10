@@ -22,8 +22,10 @@ nav ul li a {
     nav ul li {
         display: block;
         border-top: 1px solid var(--color-darkest);
-        width: 100%;
-        margin-left: 25px;
+        margin: 1rem 0;
+        text-align: center;
+        transform: translateY(-50px);
+        transition: .3s ease;
     }
   
     

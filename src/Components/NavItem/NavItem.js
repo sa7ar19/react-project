@@ -5,7 +5,7 @@ import './NavItem.css';
 const NavItem = (props) => {
     return ( 
         <li>
-            <Link to={props.link}>{props.children}</Link>
+            <Link to={props.link} >{props.children}</Link>
         </li>
      );
 }

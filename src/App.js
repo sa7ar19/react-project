@@ -7,7 +7,7 @@ import { Home , Blogs, Details, Create, NotFound, ToDo} from './Pages/index';
 
 const App = () => {
     return ( 
-        <>
+        <div className='app-wrapper'>
             <Router>  {/*  basename={'/react'}  => basename is where we make app online*/}
                 <Header/>
                 <Container>
@@ -22,7 +22,7 @@ const App = () => {
                 </Container>
                 <Footer/>
             </Router>
-        </>
+        </div>
      );
 }
  
