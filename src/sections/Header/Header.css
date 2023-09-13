@@ -111,5 +111,8 @@ nav .icon-label{
         transform: translateY(0);
         transition-delay: calc(.15s * var(--i));
     }
+    nav .logo{
+        padding-left: 30px;
+    }
     
 }

@@ -5,3 +5,10 @@
     border-radius: 10px;
     background-color: var(--color-darkest);
 }
+
+@media screen and (max-width: 900px){
+    .section-wrapper{
+        width: 93%;
+        padding: 15px;
+    }
+}

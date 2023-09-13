@@ -43,3 +43,13 @@
 .create button {
     margin-top: 10px;
 }
+@media screen and (max-width : 990px ){
+    .create {
+        width: 100%;
+        margin-bottom: -150px;
+    }
+
+    .create .section-wrapper{
+        padding: 15px;
+    }
+}

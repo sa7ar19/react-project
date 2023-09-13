@@ -7,7 +7,7 @@ import useFetch from "../../Components/useFetch/useFetch";
 
 
 const BlogList = () => {
-    const { data: blog, isPending, error } = useFetch(`http://localhost:8000/blogs`);
+    const { data: blog, isPending, error } = useFetch(`https://dummyjson.com/posts`);
 
     
     return ( 
@@ -20,7 +20,7 @@ const BlogList = () => {
                     <div className="data-section" key={blog.id}>
                         <SectionHeader title={blog.title} />
                         <Link to={`/blogs/${blog.id}`}>
-                        <BlogData key={blog.id} name={blog.name} userName={blog.userName}  AddedData={blog.data} hours={blog.hours} /></Link>
+                        <BlogData key={blog.id} body={blog.body}  tags={blog.tags} /></Link>
                     
                     </div>
                 </SectionWrapper>
